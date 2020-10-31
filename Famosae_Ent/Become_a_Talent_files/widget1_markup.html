@@ -1,0 +1,246 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><title></title></head><body><form name="member_reg" method="get" action="/asp_pages/modelmail.asp">
+  <div align="center">
+    <table>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Contact name : </div>
+        </td>
+        <td width="399" colspan="2">
+          <div align="left"><div align="left"><input type="text" name="C_name" size="20" maxlength="40"></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Work name : </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><input type="text" name="W_name" size="20" maxlength="40"></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Experience as an escort 
+            model : </div>
+        </td>
+		<td width="399" colspan="2">  
+          <div align="left">
+		  <select name="experience" onChange="updateForm(this.form)">
+            <option selected>- none</option>
+            <option>- one to two years</option>
+            <option>- two to three years</option>
+            <option>- over three years</option>
+          </select></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Location : </div>
+        </td>
+        <td width="399" colspan="2"> 
+          <div align="left"><input type="text" name="city" size="15" maxlength="10"></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Nationality : </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><input type="text" name="nationality" size="20" maxlength="25"></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Ethnicity - Origin 
+            : </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><input type="text" name="origin" size="27" maxlength="30"></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Age : </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><input type="text" name="age" size="5" maxlength="2"></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Complexion - skin tone 
+            : </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><input type="text" name="skin" size="25" maxlength="50"></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Height : </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><input type="text" name="h_ft" size="5" maxlength="5">
+          feet &amp; 
+          <input type="text" name="h_in" size="5" maxlength="5">
+          inches or 
+          <input type="text" name="h_cm" size="5" maxlength="3">
+          cm</div></td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Weight : </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><input type="text" name="weight" size="5" maxlength="5">
+          <select name="kg" onChange="updateForm(this.form)">
+            <option selected>- lbs.</option>
+            <option>- kg.</option>
+          </select></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right"> 
+            <p>Measurements<br>
+              (bust [cup] - waist - hips) : </p>
+          </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><input type="text" name="s_b" size="5" maxlength="5">
+          bust 
+          <input type="text" name="s_c" size="5" maxlength="5">
+          cup 
+          <input type="text" name="s_w" size="5" maxlength="5">
+          waist 
+          <input type="text" name="s_hi" size="5" maxlength="5">
+          hips
+          <select name="taille" onChange="updateForm(this.form)">
+            <option selected>- inches</option>
+            <option>- cm</option>
+          </select></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Eye colour : </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><input type="text" name="eye" size="20" maxlength="25"></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Hair colour : </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><input type="text" name="hair" size="20" maxlength="25"></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Hair style &amp; length 
+            : </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><input type="text" name="h_sty" size="35" maxlength="60"></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Piercings : </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><input type="text" name="pierc" size="20" maxlength="30"></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Tattoos : </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><input type="text" name="tattoo" size="20" maxlength="30"></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Mother tongue : </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><input type="text" name="mt" size="35" maxlength="70"></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Conversation languages 
+            : </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><input type="text" name="cl" size="35" maxlength="70"></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Contact telephone number(s) 
+            : </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><input type="text" name="tel1" size="20" maxlength="25" value="+">
+          &amp; 
+          <input type="text" name="tel2" size="20" maxlength="25" value="+"></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">Professional telephone 
+            number(s) <br>
+            if different from above : </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><input type="text" name="tel3" size="20" maxlength="25" value="+">
+          &amp; 
+          <input type="text" name="tel4" size="20" maxlength="25" value="+"></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251" height="31"> 
+          <div align="right">When, how and on which 
+            number <br>
+            do you prefer to be contacted ? </div>
+        </td>
+        <td width="399" height="31" colspan="2"> 
+          <div align="left"><textarea name="number" cols="30" rows="2" wrap="VIRTUAL"></textarea></div>
+        </td>
+      </tr>
+      <tr> 
+        <td width="251" height="31"> 
+          <div align="right">Email address : </div>
+        </td>
+        <td width="399" height="31" colspan="2">  
+          <div align="left"><input type="text" name="email" size="40" maxlength="50"></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right">How do you want to 
+            be presented <br>
+            by Famosae Ent? <br>
+            Please describe yourself <br>
+            in a few keywords or phrases.<br>
+            </div>
+        </td>
+        <td width="399" colspan="2">  
+          <div align="left"><textarea name="present" wrap="VIRTUAL" cols="45" rows="5"></textarea></div>
+          </td>
+      </tr>
+      <tr> 
+        <td width="251"> 
+          <div align="right"><input type="reset" name="Submit2" value="Clear">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        </td>
+        <td width="399"> 
+          <div align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name="Submit" value="Submit"></div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</form></body></html>

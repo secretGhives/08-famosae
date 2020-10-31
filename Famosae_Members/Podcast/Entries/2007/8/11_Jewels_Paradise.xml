@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<content collectionGUID="3CFFAD08-A356-4A3C-B1CD-11298B023F55">
+  <lastEdited clientType="local-build-20070812" date="2007-08-12 12:29:59 -0700"/>
+  <textBox id="generic-header-attribute" dynamic="no" visible="yes">
+    <richText>Hooker&#x2019;s Private Studio</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>Wake up in a grumpy mood only to realize that it was all to meet Jewel.  What a little Star.  Never imagined human body was subject to such sexiness.</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>Saturday, August 11, 2007</richText>
+  </textBox>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>Jewels Paradise</richText>
+  </textBox>
+</content>

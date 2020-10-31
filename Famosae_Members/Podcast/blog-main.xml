@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Podcast</title>
+    <link>http://www.famosae.com/Famosae_Members/Podcast</link>
+    <description>We all like to see things happening behind the curtain.</description>
+    <item>
+      <title>Jewels Paradise</title>
+      <link>http://www.famosae.com/Famosae_Members/Podcast/Entries/2007/8/11_Jewels_Paradise.html</link>
+      <guid isPermaLink="false">92ddc7ec-6e87-4de3-b630-240995fd4816</guid>
+      <pubDate>Sat, 11 Aug 2007 21:54:28 -0700</pubDate>
+      <description>Wake up in a grumpy mood only to realize that it was all to meet Jewel.  What a little Star.  Never imagined human body was subject to such sexiness.</description>
+      <iweb:image href="Media/redpanties.png"></iweb:image>
+      <iweb:comment enabled="0" link="http://www.famosae.com/Famosae_Members/Podcast/Entries/2007/8/11_Jewels_Paradise.html#comment_layer" count="0"></iweb:comment>
+    </item>
+    <iweb:dateFormat>EEEE, MMMM d, yyyy</iweb:dateFormat>
+    <iweb:baseURL>http://www.famosae.com/Famosae_Members/Podcast</iweb:baseURL>
+    <iweb:maximumSummaryItems>5</iweb:maximumSummaryItems>
+  </channel>
+</rss>
